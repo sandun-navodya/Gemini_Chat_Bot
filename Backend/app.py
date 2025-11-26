@@ -9,9 +9,10 @@ import numpy as np
 import faiss 
 import io
 import re
-
+from dotenv import load_dotenv
 # --- 1. FLASK SETUP & CONFIGURATION 
 
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app) # Allow React frontend to access this API
