@@ -12,6 +12,7 @@ import re
 
 # --- 1. FLASK SETUP & CONFIGURATION 
 
+
 app = Flask(__name__)
 CORS(app) # Allow React frontend to access this API
 

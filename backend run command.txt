@@ -10,5 +10,5 @@ python -m venv venv
 
 pip install Flask flask-cors google-generativeai pypdf numpy faiss-cpu python-dotenv
 
-$env:GEMINI_API_KEY="AIzaSyADj1gFgRvSOWa-tbyT8w7rqQreZATIO-0"
+$env:GEMINI_API_KEY=""
 python app.py
