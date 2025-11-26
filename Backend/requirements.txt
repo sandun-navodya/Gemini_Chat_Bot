@@ -1,0 +1,19 @@
+# Core Flask Framework
+Flask==3.1.2
+flask-cors==6.0.1
+
+# Gemini API Integration
+google-generativeai==0.8.5
+google-genai==1.52.0  # You installed this in an earlier step
+
+# RAG (Retrieval-Augmented Generation) Dependencies
+pypdf==6.4.0
+numpy==2.3.5
+faiss-cpu==1.13.0
+
+# Environment Variables
+python-dotenv==1.2.1
+
+# Note: Many other dependencies were installed automatically (like Werkzeug, Jinja2, etc.).
+# Running 'pip freeze > requirements.txt' will capture ALL of them with their exact versions.
+# The list above contains the primary packages you explicitly need for the project to run.
